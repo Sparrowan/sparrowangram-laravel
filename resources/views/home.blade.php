@@ -7,15 +7,15 @@
       <img src="https://scontent-mba1-1.cdninstagram.com/v/t51.2885-19/s150x150/15535314_905147332954241_7281674707391217664_a.jpg?_nc_ht=scontent-mba1-1.cdninstagram.com&_nc_ohc=CO1sTJ9LpSkAX8oI1IO&oh=47a44e1f1bb083773853829036a9aeea&oe=5EC85919" alt="" class="rounded-circle">
       </div>  
       <div class="col-9">
-      <div><h1>_alphius</h1></div>
+      <div><h1>{{{$user->username}}}</h1></div>
       <div class="d-flex">
       <div class="pr-5"><strong>66</strong> posts</div>
       <div class="pr-5"><strong>10.3k</strong> followers</div>
       <div class="pr-5"><strong>7487</strong> following</div>
       </div>
-      <div class="pt-4 font-weight-bold">jack alphius sparrowan</div>
-      <div>Data scientist , Software engineer, Artificial intelligence. Full stack web and mobile developer. Python,React,R,flutter,java,PHP. CEO SPARROWAN SLNS.</div>
-      <div><a href="https://l.instagram.com/?u=https%3A%2F%2Fm.youtube.com%2Fwatch%3Ffeature%3Dyoutube_gdata_player%26v%3DovJaDP9jVoc&e=ATOsKfWMZM6zUuvVt2tgtoE8_wfTkqd7Rb24cvD0jnzXRXa28MLidAwuNrdX56PS_ZnGKLPuClwNkETM&s=1">m.youtube.com/watch?feature=youtube_gdata_player&v=ovJaDP9jVoc</a></div>
+      <div class="pt-4 font-weight-bold">{{$user->profile->title}}</div>
+      <div>{{$user->profile->description}}</div>
+      <div><a href="#">{{$user->profile->url}}</a></div>
       </div>
     </div>
     <div class="row">
